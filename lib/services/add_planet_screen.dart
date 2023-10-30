@@ -61,7 +61,7 @@ class _AddPlanetScreenState extends State<AddPlanetScreen> {
             Slider(
               value: distance,
               min: 50,
-              max: 200,
+              max: 150,
               onChanged: (newValue) {
                 setState(() {
                   distance = newValue;
